@@ -95,3 +95,9 @@ list.c:81:11: error: unused variable 'nuevoNodo' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 0f31836
+Wed, Mar 26, 2025  9:31:22 AM: 
+ list.c | 7 +++++++
+ 1 file changed, 7 insertions(+)
+ tests:  9|3
+total_score: 35/70
+17172d2
