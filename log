@@ -78,3 +78,9 @@ Wed, Mar 26, 2025  9:16:43 AM:
  tests:  8|4
 total_score: 25/70
 720350e
+Wed, Mar 26, 2025  9:18:34 AM: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  9|3
+total_score: 35/70
+a530623
