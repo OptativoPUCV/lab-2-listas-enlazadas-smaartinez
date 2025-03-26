@@ -52,3 +52,17 @@ Wed, Mar 26, 2025  9:10:46 AM:
  tests:  6|4
 total_score: 25/70
 ea1dccb
+Wed, Mar 26, 2025  9:15:14 AM: 
+ list.c | 12 +++++++++++-
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'prevList':
+list.c:68:14: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+     if (list = NULL || list->head == NULL || list->current == list->head) return NULL;
+              ^
+list.c:68:5: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+     if (list = NULL || list->head == NULL || list->current == list->head) return NULL;
+     ^~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+87db9d8
